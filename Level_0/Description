@@ -1,0 +1,5 @@
+Level 0: "A little something to get you started"
+Difficulty: Trivial
+
+By looking at the page's source code or in the "Application" section (as I did), you can see an image called background.png. If we open it, we can find the first FLAG.
+In the first level, there is only one flag, so once you find it, the level will be completed.
