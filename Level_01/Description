@@ -1,0 +1,21 @@
+In this level, there are 4 flags to find.
+(The way I completed the level, I found the flags in a random order, so I will explain them as such.)
+
+FIRST FLAG:
+I found the first flag by modifying the URL in the "Edit Page" section (which was page 11).
+I gradually changed the page number, and at first, I kept getting the output "PAGE NOT FOUND".
+Eventually, I discovered a page called "Private Page", which contained the FLAG inside.
+
+SECOND FLAG:
+I found the second flag by adding an apostrophe (') right after the number in the Edit Page section.
+This opened a page containing the FLAG.
+
+THIRD FLAG:
+I found the third flag by adding an alert script (<script> alert(123) </script>).
+Once the page is created, simply refresh it, and the alert we created will appear.
+However, instead of displaying 123, it will display the FLAG.
+
+FOURT FLAG:
+I found the fourth flag by copying and pasting the Markdown XSS payload
+(website: https://github.com/cujanovic/Markdown-XSS-Payloads/blob/master/Markdown-XSS-Payloads.txt) into the "Create Page" section.
+When we save and open the page, it will display the entire XSS, including the flag.
